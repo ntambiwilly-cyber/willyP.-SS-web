@@ -1,0 +1,314 @@
+/* About Page Background */
+.about-page {
+    background-color: #f3f8ff;
+}
+
+/* ABOUT HERO SECTION */
+.about-hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color:lightskyblue;
+    color: yellow;
+}
+
+.about-hero h2 {
+    font-size: 2.5em;
+}
+
+.about-hero p {
+    font-size: 1.2em;
+}
+
+/* HISTORY SECTION */
+.about-history {
+    padding: 25px 40px;
+    text-align: center;
+}
+
+.about-history h2 {
+    color: #004aad;
+}
+
+/* MISSION / VISION / MOTTO */
+.mission-vision {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mv-card {
+    background: white;
+    width: 300px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.mv-card i {
+    color: #004aad;
+}
+
+/* CORE VALUES */
+.core-values {
+    text-align: center;
+    padding: 30px;
+}
+
+.core-values h2 {
+    color: #004aad;
+}
+
+.core-values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.core-values li {
+    padding: 8px;
+    font-size: 1.1em;
+}
+
+/* TEAM SECTION */
+.team-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background: white;
+    width: 250px;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 12px;
+    height: 220px;
+    object-fit: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background:#e8ffe8;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background: darkblue;
+    color: yellow;
+}
+.logo {
+    width: 80px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    background: green;
+    margin: 0;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Carousel Container */
+.carousel {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Each Slide */
+.fade-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+/* Images */
+.fade-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* makes images fit without stretching */
+    border-radius: 10px;
+}
+
+
+/* SERVICES */
+.services-section {
+    background: #eef5ff;
+    padding: 40px 20px;
+}
+.services {
+    display: flex;
+    gap: 20px;
+}
+.service-card {
+    flex: 1;
+    padding: 20px;
+    background: yellowgreen;
+    border-radius: 10px;
+    border-left: 8px solid #007bff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.service-card:nth-child(2) {
+    border-left-color: #00b894;
+}
+.service-card:nth-child(3) {
+    border-left-color: #e17055;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* Testimonials */
+.testimonials {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.testimonial-card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form */
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+button {
+    background: #004aad;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Social Media */
+.social-media {
+    text-align: center;
+    padding: 30px 10px;
+}
+.social-icons a {
+    font-size: 28px;
+    margin: 0 10px;
+    color: #004aad;
+}
+
+/* Footer */
+footer {
+    background: #002244;
+    color: white;
+    padding: 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section a {
+    color: #87cefa;
+    text-decoration: none;
+}
+.footer-note {
+    text-align: center;
+    margin-top: 15px;
+}
+/* Body background for services page */
+.services-page {
+    background-color: #eef5ff; /* light blue background for services page */
+}
+
+/* Services Intro */
+.services-intro {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.services-intro h2 {
+    font-size: 2.2em;
+    color: #004aad;
+    margin-bottom: 10px;
+}
+
+.services-intro p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Services Grid */
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.service-card {
+    background: white;
+    flex: 1 1 300px;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card i {
+    color: #004aad;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 0.95em;
+    color: #555;
+}

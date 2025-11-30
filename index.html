@@ -1,0 +1,167 @@
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Willy's Pride Secondary School</title>
+                <link rel="stylesheet" href="style-css/style.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+            </head>
+
+            <body>
+
+            <header>
+                <img src="images/logo.png"alt="School Logo" class="logo">
+                <h1>Willy's Pride Secondary School</h1>
+            </header>
+
+            <!-- NAV -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Carousel Section -->
+            <div class="carousel">
+                <div class="fade-slide">
+                    <img src="images/revising.png" alt="School Image 1">
+                </div>
+
+                <div class="fade-slide">
+                    <img src="images/building.jpeg" alt="School Image 2">
+                </div>
+
+                <div class="fade-slide">
+                    <img src="images/image5.jpg" alt="School Image 3">
+                </div>
+
+               
+                </div>
+            </div>
+<main>
+    <section class="welcome">
+        <h2 >WELCOME TO WILLY`S PRIDE SECONDARY SCHOOL</h2>
+         <img src="images/logo.png" width="100%"alt="School Logo" class="logo">
+        <p>
+            We are committed to academic excellence, discipline, innovation, and student growth.  
+            Explore our learning programs, modern facilities, and strong community.
+        </p>
+        <img src="images/revising.png" alt="School Image" class="welcome-img"><h2> join us now</h2>
+    </section>
+
+            <section class="services-section">
+                <h2>Our Services</h2>
+                <div class="services">
+                    
+                    <div class="service-card">
+                        <h3>Academic Excellence</h3>
+                        <p>High-quality teaching with excellent results.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Extracurricular Activities</h3>
+                        <p>Sports, clubs, music, and leadership programs.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Support Services</h3>
+                        <p>Counseling, guidance, and learner support systems.</p>
+                    </div>
+
+                </div>
+            </section>
+             <img src="images/image.JPEG" alt="School Image 2">
+
+            <section>
+                <h2>What Our Students Say</h2>
+                <div class="testimonials">
+                    <div class="testimonial-box">
+                         <img src="images/image3.jpeg"width="500" height="300"alt="School Image 2">
+                        <p>"The teachers here are amazing!"</p>
+                        <strong>Ntambi William</strong>
+                      
+                    </div>
+                    <div class="testimonial-box">
+                          <img src="images/image8.jfif" width="500" height="300"alt="School Image 2">
+                        <p>"Great extracurricular activities!"</p>
+                        <strong>Namata Winne</strong>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Apply Online</h2>
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <textarea rows="5" placeholder="Why do you want to join our school?" required></textarea>
+                    <button type="submit">Submit Application</button>
+                </form>
+            </section>
+
+        
+            <footer>
+                <div class="footer-content">
+                     <!-- SOCIAL MEDIA -->
+            <section class="social-media">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </section>
+
+                    <div class="footer-section">
+                        <h4>Contacts</h4>
+                        <p>Email: info@willyspride.ac.ug</p>
+                        <p>Phone: +256 743363564</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <a href="index.html">Home</a><br>
+                        <a href="about.html">About</a><br>
+                        <a href="services.html">Services</a><br>
+                        <a href="location.html">Location</a>
+                    </div>
+
+                </div>
+                <h3 style="text-align: center;"><b>THE HEADTEACHER</b></h3><p>
+
+            <p style="text-align: center;">ntambiwilly9@gmail.com</p>
+
+                <p class="footer-note">&copy; 2025 Willy's Pride Secondary School. All rights reserved.</p>
+
+            </footer>
+
+                    <script>
+                    let slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        let slides = document.getElementsByClassName("fade-slide");
+
+                        for (let i = 0; i < slides.length; i++) {
+                            slides[i].style.opacity = "0";
+                        }
+
+                        slideIndex++;
+
+                        if (slideIndex > slides.length) { slideIndex = 1 }
+
+                        slides[slideIndex - 1].style.opacity = "1";
+
+                        setTimeout(showSlides, 3500); 
+                    }
+                    </script>
+
+
+             </body>
+            </html>
